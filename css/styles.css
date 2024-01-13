@@ -253,8 +253,6 @@ img {
     border-color: #8E8F99;
 }
 
-.features-link {}
-
 .features-icon {
     fill: transparent;
     width: 100%;
@@ -362,7 +360,7 @@ img {
 }
 
 .team-social-link:hover,
-.team-social-link:hover {
+.team-social-link:focus {
     background-color: #404bbf;
 }
 
@@ -461,8 +459,12 @@ img {
 
 .footer-container {
     display: flex;
-    gap: 120px;
+    align-items: baseline;
 
+}
+
+.footer-logo-container {
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -495,6 +497,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 16px;
 }
 
 
@@ -523,4 +526,9 @@ img {
 .footer-social-link:hover,
 .footer-social-link:focus {
     background-color: #31D0AA;
+}
+
+.footer-social-icon {
+    fill: ;
+    #f4f4fd
 }
